@@ -1,0 +1,118 @@
+{
+  "editor.fontFamily": "Operator Mono, 'B Yekan', 'Yekan Bakh'",
+  "editor.lineHeight": 35,
+  "workbench.editorAssociations": {
+
+  },
+  "editor.minimap.side": "left",
+  "editor.fontLigatures": true,
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.fastScrollSensitivity": 7,
+  "editor.scrollBeyondLastColumn": 7,
+  "[dockercompose]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "[Minimal]": {
+        "editor.selectionBackground": "#3a3a3a",
+        "editor.selectionHighlightBackground": "#3a3a3a83",
+        "titleBar.activeForeground": "#9b9b9b",
+        "sideBarTitle.foreground": "#00ff00"
+    }
+  },
+
+  "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "name": "Victor Mono Medium",
+          "scope": [
+            "comment",
+          ],
+          "settings": {
+            "fontStyle": "italic",
+          }
+        }
+      ]
+    },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "redhat.telemetry.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.titleBarStyle": "custom",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "launch": {
+
+
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.fontVariations": false,
+  "auto-close-tag.activationOnLanguage": [
+    "twig",
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "editor.fontSize": 15,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "git.autofetch": true,
+  "githubPullRequests.pullBranch": "never",
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.stickyScroll.enabled": false,
+  "workbench.iconTheme": null,
+  "git.confirmSync": false,
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "node"
+  },
+  "window.customTitleBarVisibility": "auto",
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "breadcrumbs.enabled": false,
+  "php.cache.location": "",
+  "php.format.codeStyle": "PSR-12",
+  "security.promptForLocalFileProtocolHandling": false,
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.settings.applyToAllProfiles": [
+  
+  ],
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "vscode_custom_css.imports": [
+    "file:///home/rad/sources/others/configurations/vscode/custom.css"
+  ]
+}
