@@ -1,3 +1,9 @@
-.monaco-pane-view .pane>.pane-body {
-    font-family: "JetBrains Mono", monospace !important;
+:root {
+    --custom-font-family: "JetBrains Mono", monospace;
+}
+
+.monaco-pane-view .pane>.pane-body,
+.quick-input-widget.show-file-icons,
+.line-numbers {
+    font-family: var(--custom-font-family) !important;
 }
