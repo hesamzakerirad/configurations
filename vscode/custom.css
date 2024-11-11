@@ -7,3 +7,7 @@
 .line-numbers {
     font-family: var(--custom-font-family) !important;
 }
+
+.line-numbers { 
+    font-size: small !important
+}
